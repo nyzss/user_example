@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.colorscheme.iceberg-vim",    lazy = false },
   --
   -- other:
-  { import = "astrocommunity.completion.codeium-vim" }
+  { import = "astrocommunity.completion.codeium-vim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   --
   --language packs:
