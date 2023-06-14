@@ -5,13 +5,13 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- colorschemes:
-  { import = "astrocommunity.colorscheme.catppuccin",           lazy = false },
-  { import = "astrocommunity.colorscheme.nord-nvim",            lazy = false },
-  { import = "astrocommunity.colorscheme.oxocarbon-nvim",       lazy = false },
-  { import = "astrocommunity.colorscheme.sonokai",              lazy = false },
-  { import = "astrocommunity.colorscheme.rose-pine",            lazy = false },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim",        lazy = false },
-  { import = "astrocommunity.colorscheme.iceberg-vim",          lazy = false },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.nord-nvim" },
+  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
+  { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+  { import = "astrocommunity.colorscheme.iceberg-vim" },
   --
   -- other:
   { import = "astrocommunity.completion.codeium-vim" },
