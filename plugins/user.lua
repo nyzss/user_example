@@ -1,6 +1,14 @@
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
+  -- //themes
+  "sainnhe/gruvbox-material",
+  "sainnhe/everforest",
+  "AhmedAbdulrahman/vim-aylin",
+  "pineapplegiant/spaceduck",
+  "AlexvZyl/nordic.nvim",
+  -- //themes
+
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
@@ -10,9 +18,6 @@ return {
     "xiyaowong/transparent.nvim",
     opts = {},
     lazy = false,
-  },
-  {
-    "sainnhe/gruvbox-material",
   },
   {
     "folke/twilight.nvim",
