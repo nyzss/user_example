@@ -16,6 +16,9 @@ return {
   -- other:
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.editing-support.true-zen-nvim",    lazy = false },
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity.bars-and-lines.feline-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   --
   --language packs:
