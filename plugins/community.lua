@@ -16,9 +16,11 @@ return {
   -- other:
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
-  { import = "astrocommunity.editing-support.true-zen-nvim", lazy = false },
+  { import = "astrocommunity.editing-support.true-zen-nvim",               lazy = false },
+  -- { import = "astrocommunity.editing-support.zen-mode-nvim", lazy = false },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
+  { import = "astrocommunity.code-runner.overseer-nvim" },
 
   -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   -- { import = "astrocommunity.bars-and-lines.feline-nvim" },

@@ -15,6 +15,7 @@ return {
         -- "volar",
         -- "prismals",
         -- "emmet_ls",
+        "zls",
       })
     end,
   },

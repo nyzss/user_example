@@ -19,7 +19,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "spaceduck",
+  colorscheme = "sonokai",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

@@ -1,27 +1,66 @@
-return {
-  -- "akinsho/toggleterm.nvim",
-  -- config = function()
-  --   local powershell_options = {
-  --     shell = "pwsh",
-  --     shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
-  --     shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait",
-  --     shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode",
-  --     shellquote = "",
-  --     shellxquote = "",
-  --   }
-  --
-  --   for option, value in pairs(powershell_options) do
-  --     vim.opt[option] = value
-  --   end
-  --   require("toggleterm").setup {
-  --     size = 10,
-  --     open_mapping = [[<F7>]],
-  --     shading_factor = 2,
-  --     direction = "float",
-  --     float_opts = {
-  --       border = "curved",
-  --       highlights = { border = "Normal", background = "Normal" },
-  --     },
-  --   }
-  -- end,
-}
+return {}
+
+-- return {
+--   "akinsho/toggleterm.nvim",
+--   cmd = { "ToggleTerm", "TermExec" },
+--   opts = {
+--     size = 10,
+--     on_create = function()
+--       vim.opt.foldcolumn = "0"
+--       vim.opt.signcolumn = "no"
+--     end,
+--     open_mapping = [[<F7>]],
+--     shading_factor = 2,
+--     direction = "float",
+--     float_opts = {
+--       border = "curved",
+--       highlights = { border = "Normal", background = "Normal" },
+--     },
+--   },
+-- }
+-- return {
+-- "akinsho/toggleterm.nvim",
+-- config = function()
+--   local powershell_options = {
+--     shell = "pwsh",
+--     shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
+--     shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait",
+--     shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode",
+--     shellquote = "",
+--     shellxquote = "",
+--   }
+--
+--   for option, value in pairs(powershell_options) do
+--     vim.opt[option] = value
+--   end
+--   require("toggleterm").setup {
+--     size = 10,
+--     open_mapping = [[<F7>]],
+--     shading_factor = 2,
+--     direction = "float",
+--     float_opts = {
+--       border = "curved",
+--       highlights = { border = "Normal", background = "Normal" },
+--     },
+--   }
+-- end,
+-- }
+-- return {
+--   "akinsho/toggleterm.nvim",
+--   -- the first parameter is the plugin specification
+--   -- the second is the table of options as set up in Lazy with the `opts` key
+--   config = function(plugin, opts)
+--     -- run the core AstroNvim configuration function with the options table
+--     require "plugins.configs.toggleterm"(plugin, opts)
+--
+--     -- require telescope and load extensions as necessary
+--     local toggleterm = require "toggleterm"
+--     local Terminal = require("toggleterm.terminal").Terminal
+--
+--     local pwsh = Terminal:new { cmd = "pwsh", hidden = true }
+--
+--     toggleterm.on_create(pwsh)
+--
+--     -- telescope.load_extension "media_files"
+--   end,
+-- }

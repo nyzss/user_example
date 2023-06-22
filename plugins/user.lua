@@ -7,6 +7,7 @@ return {
   "AhmedAbdulrahman/vim-aylin",
   "pineapplegiant/spaceduck",
   "AlexvZyl/nordic.nvim",
+  "VDuchauffour/neodark.nvim",
   -- //themes
 
   {
@@ -20,18 +21,32 @@ return {
     lazy = false,
   },
   {
-    "folke/twilight.nvim",
-    opts = {
-      dimming = {
-        alpha = 0.10,
-      },
-      -- your configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
-    },
-    -- lazy = false,
+    "sheerun/vim-polyglot",
+    opts = {},
   },
+  -- {
+  --   "folke/twilight.nvim",
+  --   opts = {
+  --     dimming = {
+  --       alpha = 0.10,
+  --     },
+  --     -- your configuration comes here
+  --     -- or leave it empty to use the default settings
+  --     -- refer to the configuration section below
+  --   },
+  --   -- lazy = false,
+  -- },
+  -- {
+  --   "wfxr/minimap.vim",
+  --   opts = {
+  --     minimap_width = 10,
+  --     minimap_auto_start = 1,
+  --     minimap_auto_start_win_enter = 1,
+  --   },
+  --   lazy = false,
+  -- },
   {
+
     "andweeb/presence.nvim",
     opts = {
       main_image = "file",
