@@ -14,31 +14,31 @@ return {
   { import = "astrocommunity.colorscheme.iceberg-vim" },
   {
     "nord-nvim",
-    lazy = false,
+    -- lazy = false,
   },
   {
     "oxocarbon-nvim",
-    lazy = false,
+    -- lazy =false,
   },
   {
     "sonokai",
-    lazy = false,
+    -- lazy = false,
   },
   {
     "rose-pine",
-    lazy = false,
+    -- lazy = false,
   },
   {
     "kanagawa-nvim",
-    lazy = false,
+    -- lazy = false,
   },
   {
     "iceberg-vim",
-    lazy = false,
+    -- lazy = false,
   },
   {
     "catppuccin",
-    lazy = false,
+    -- lazy = false,
   },
   --
   -- other:

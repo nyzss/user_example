@@ -60,8 +60,8 @@ return {
     "Everblush/nvim",
     lazy = false,
   },
-  {
-    "freddiehaddad/peanut.nvim",
-    lazy = false,
-  },
+  -- {
+  --   "freddiehaddad/peanut.nvim",
+  --   lazy = false,
+  -- },
 }
