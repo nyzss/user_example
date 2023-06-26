@@ -2,12 +2,6 @@ return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- //themes
-  "sainnhe/gruvbox-material",
-  "sainnhe/everforest",
-  "AhmedAbdulrahman/vim-aylin",
-  "pineapplegiant/spaceduck",
-  "AlexvZyl/nordic.nvim",
-  "VDuchauffour/neodark.nvim",
   -- //themes
 
   {
@@ -21,8 +15,23 @@ return {
     lazy = false,
   },
   {
-    "sheerun/vim-polyglot",
-    opts = {},
+    "alaviss/nim.nvim",
+    ft = "nim",
+    -- lazy = false,
+  },
+  -- {
+  --   "sheerun/vim-polyglot",
+  --   config = function() require("vim-polyglot").setup() end,
+  --
+  --   -- opts = {},
+  --   lazy = false,
+  -- },
+  {
+    "h-225/odin.vim",
+    ft = "odin",
+    -- lazy = false,
+    -- config = function() require("odin.vim").setup() end,
+    -- -- opts = {},
   },
   -- {
   --   "folke/twilight.nvim",
@@ -36,15 +45,21 @@ return {
   --   },
   --   -- lazy = false,
   -- },
-  -- {
-  --   "wfxr/minimap.vim",
-  --   opts = {
-  --     minimap_width = 10,
-  --     minimap_auto_start = 1,
-  --     minimap_auto_start_win_enter = 1,
-  --   },
-  --   lazy = false,
-  -- },
+  {
+    "ziglang/zig.vim",
+    ft = "zig",
+  },
+  {
+    "wfxr/minimap.vim",
+    -- opts = {
+    --   minimap_width = 10,
+    --   minimap_auto_start = 1,
+    --   minimap_auto_start_win_enter = 1,
+    -- },
+    lazy = false,
+    -- config = function() require("minimap.vim").setup() end,
+  },
+  { "ellisonleao/glow.nvim", config = true, cmd = "Glow" },
   {
 
     "andweeb/presence.nvim",
