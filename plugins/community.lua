@@ -67,4 +67,5 @@ return {
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.cs" },
 }

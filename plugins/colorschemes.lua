@@ -60,6 +60,23 @@ return {
     "Everblush/nvim",
     lazy = false,
   },
+  {
+    "rockerBOO/boo-colorscheme-nvim",
+    lazy = false,
+  },
+  { "typicode/bg.nvim", lazy = false },
+  {
+    "felipeagc/fleet-theme-nvim",
+    lazy = false,
+  },
+  {
+    "lighthaus-theme/vim-lighthaus",
+    lazy = false,
+  },
+  {
+    "aktersnurra/no-clown-fiesta.nvim",
+    lazy = false,
+  },
   -- {
   --   "freddiehaddad/peanut.nvim",
   --   lazy = false,

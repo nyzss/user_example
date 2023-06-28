@@ -19,7 +19,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "ayu-dark",
+  colorscheme = "no-clown-fiesta",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
