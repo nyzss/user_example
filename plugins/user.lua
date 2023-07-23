@@ -19,6 +19,15 @@ return {
     ft = "nim",
     -- lazy = false,
   },
+  {
+    "mbrea-c/wal-colors.nvim",
+    lazy = false,
+  },
+  {
+    "ron-rs/ron.vim",
+    ft = "ron",
+  },
+
   -- {
   --   "sheerun/vim-polyglot",
   --   config = function() require("vim-polyglot").setup() end,
