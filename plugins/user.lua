@@ -24,9 +24,13 @@ return {
     lazy = false,
   },
   {
-    "ron-rs/ron.vim",
-    ft = "ron",
+    "EtiamNullam/deferred-clipboard.nvim",
+    lazy = false,
   },
+  -- {
+  --   "ron-rs/ron.vim",
+  --   ft = "ron",
+  -- },
 
   -- {
   --   "sheerun/vim-polyglot",
@@ -42,6 +46,7 @@ return {
     -- config = function() require("odin.vim").setup() end,
     -- -- opts = {},
   },
+
   -- {
   --   "folke/twilight.nvim",
   --   opts = {

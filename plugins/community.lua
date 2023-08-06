@@ -42,7 +42,7 @@ return {
   -- },
   --
   -- other:
-  { import = "astrocommunity.completion.codeium-vim" },
+  -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.editing-support.true-zen-nvim", lazy = false },
   -- { import = "astrocommunity.editing-support.zen-mode-nvim", lazy = false },
@@ -52,6 +52,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.motion.nvim-spider" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.completion.tabnine-nvim" },
 
   -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   -- { import = "astrocommunity.bars-and-lines.feline-nvim" },
